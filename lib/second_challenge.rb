@@ -8,6 +8,14 @@ def second_challenge
 
   #code your solution here!
 
-  
+  ingredients = []
+
+  groceries.each do |type, ingredient|
+    ingredient.each do |stuff|
+      ingredients.push(stuff)
+    end
+  end
+
+  return ingredients
 
 end
